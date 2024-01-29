@@ -5,6 +5,7 @@ h1 {
   text-decoration: dotted underline overline;
   text-align: center;
   text-transform: uppercase;
+  text-decoration-color: black;
 }
 p {
   color: aqua;
