@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+}
+div h1 {
+  background-color: aqua;
+}
+
+div p {
+  color: aquamarine;
+}
+
+h1 {
+  color: azure;
+}

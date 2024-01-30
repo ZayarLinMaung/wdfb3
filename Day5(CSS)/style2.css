@@ -1,0 +1,31 @@
+#username {
+  background-color: aqua;
+}
+#password {
+  background-color: darkturquoise;
+}
+h1 {
+  background-color: black;
+  color: azure;
+}
+p {
+  background-color: grey;
+  color: cyan;
+}
+span {
+  background-color: bisque;
+}
+ul {
+  background-color: grey;
+}
+li {
+  background-color: cyan;
+}
+table {
+  background-color: bisque;
+}
+i,
+u {
+  background-color: black;
+  color: aliceblue;
+}

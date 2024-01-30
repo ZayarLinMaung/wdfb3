@@ -1,0 +1,30 @@
+/* ID selector */
+#firstp {
+  color: aquamarine;
+}
+
+#secondp {
+  color: midnightblue;
+}
+/* Class selector */
+.fancytext {
+  color: bisque;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+/* Specificity */
+.head1 {
+  color: black;
+}
+#spec {
+  color: blanchedalmond;
+}
+h1 {
+  color: orangered;
+}
