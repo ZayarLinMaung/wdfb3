@@ -1,0 +1,25 @@
+body {
+  font-family: "Sixtyfour", sans-serif;
+}
+h1,
+p,
+div {
+  text-align: center;
+}
+button {
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #50b5ba;
+  font-weight: bold;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+  border-radius: 30px;
+  font-family: "Sixtyfour", sans-serif;
+}
+/* selector:pseudoclass */
+button:hover {
+  opacity: 85%;
+}

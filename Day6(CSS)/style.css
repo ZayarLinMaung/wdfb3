@@ -1,0 +1,16 @@
+div {
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  margin-bottom: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+#anotherdiv {
+  width: 300px;
+  height: 300px;
+  border: 3px solid cyan;
+  margin-bottom: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,32 @@
+h1,
+p,
+div {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button {
+  background-color: rgb(75, 75, 237);
+  border-style: none;
+  width: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.h1,
+.p,
+.div,
+.li {
+  display: inline;
+}
+.span,
+.input,
+.a {
+  display: block;
+}

@@ -1,0 +1,10 @@
+h1 {
+  font-family: "Single Day", cursive;
+}
+div {
+  width: 400px;
+  height: auto;
+  background-color: wheat;
+  text-align: center;
+  margin-left: 600px;
+}
