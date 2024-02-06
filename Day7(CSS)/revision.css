@@ -39,6 +39,7 @@ body {
   margin-top: 10px;
   gap: 50px;
   margin-bottom: 10px;
+  justify-content: space-evenly;
 }
 #img1 {
   display: flex;
@@ -49,8 +50,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-#paragraph1 {
-  display: block;
+#paragraph1 p {
   width: 1000px;
 }
 
@@ -59,6 +59,7 @@ body {
   flex-direction: row-reverse;
   gap: 50px;
   margin-bottom: 10px;
+  justify-content: space-evenly;
 }
 #img2 {
   display: flex;
@@ -69,10 +70,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-#paragraph2 {
-  display: block;
+#paragraph2 p {
   width: 1000px;
-  height: 500px;
+  display: flex;
 }
 /* footer */
 #container4 {
@@ -83,30 +83,4 @@ body {
 }
 #container4 div {
   width: 300px;
-}
-@media screen and (max-width: 630px) {
-  #container1 {
-    flex-wrap: wrap;
-  }
-  #header {
-    justify-content: center;
-  }
-  #navbar {
-    justify-content: center;
-  }
-  #container2 {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: justify;
-    margin-bottom: 100px;
-  }
-  #container3 {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: justify;
-    flex-direction: column;
-  }
-  #container4 div {
-    width: 100px;
-  }
 }
