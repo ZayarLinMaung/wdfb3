@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  border: 2px solid grey;
+  height: 400px;
+  /* yaxis */
+  align-items: center;
+  /* xaxis */
+  justify-content: space-around;
+  /* direction */
+  flex-direction: row-reverse;
+  /* align is for y and justify is for x */
+}
+
+div {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100px;
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px 0;
+  transition: 0.3s ease-in-out 0s;
+  cursor: pointer;
+}
+
+div:hover {
+  background-color: black;
+  color: white;
+}
