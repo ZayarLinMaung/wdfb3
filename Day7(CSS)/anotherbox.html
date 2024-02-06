@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      div {
+      #container {
+        display: flex;
+        justify-content: space-between;
+        height: 1000px;
+      }
+      #box1 {
         height: 300px;
         width: 300px;
         border: 2px solid black;
@@ -15,7 +20,33 @@
         font-size: 30px;
         font-weight: bolder;
         font-family: "Pacifico", cursive;
-        border-radius: 0px 20px 20px 0px;
+        border-radius: 0px;
+        align-self: end;
+      }
+      #circle {
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: "Pacifico", cursive;
+        border-radius: 50%;
+        align-self: center;
+      }
+      #box2 {
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: "Pacifico", cursive;
+        border-radius: 0px;
       }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,6 +57,10 @@
     />
   </head>
   <body>
-    <div>Box</div>
+    <div id="container">
+      <div id="box1">Box</div>
+      <div id="circle">Circle</div>
+      <div id="box2">Box</div>
+    </div>
   </body>
 </html>
