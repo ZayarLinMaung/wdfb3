@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 3px solid black;
+      }
+      #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        width: 1000px;
+        height: 50px;
+      }
+      #header h1 {
+        font-size: 40px;
+      }
+      #navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        width: 700px;
+        gap: 20px;
+      }
+      #navbar a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="container">
+      <div id="header">
+        <h1>This is a header</h1>
+      </div>
+      <div id="navbar">
+        <a href="">Home</a>
+        <a href="">Products</a>
+        <a href="">Contact</a>
+        <a href="">About Us</a>
+      </div>
+    </section>
+  </body>
+</html>
