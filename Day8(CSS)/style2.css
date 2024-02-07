@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  border: 2px solid black;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+.div1 {
+  background-color: cyan;
+  flex-grow: 1;
+}
+.div2 {
+  background-color: orangered;
+  flex-shrink: 0;
+}

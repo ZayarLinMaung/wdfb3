@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.part1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  background-color: blue;
+  padding: 10px;
+  margin-top: 0;
+  top: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+button {
+  background-color: rgb(69, 69, 249);
+  color: white;
+  border-style: none;
+  padding: 10px;
+  padding-right: 30px;
+  margin-right: 10px;
+}
