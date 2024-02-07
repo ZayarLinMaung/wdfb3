@@ -198,15 +198,14 @@ body {
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
   #container1 {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
   }
   #header {
-    flex-direction: column;
-    /* for x-axis */
-    justify-content: center;
+    flex-direction: row;
     /* for y-axis */
+    justify-content: center;
+    /* for x-axis */
     align-items: center;
     width: auto;
     max-width: 1554px;
