@@ -10,6 +10,13 @@ body {
   border-bottom: 2px solid black;
   padding: 10px;
 }
+ul {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  margin-right: 20px;
+}
 #header {
   display: flex;
   flex-direction: row;
@@ -87,6 +94,7 @@ body {
 #container4 div {
   width: 300px;
 }
+/* for small mobile */
 @media screen and (max-width: 380px) {
   #container1 {
     display: flex;
@@ -137,6 +145,7 @@ body {
     width: 100%;
   }
 }
+/* for mid devices like tablets */
 @media screen and (min-width: 380px) and (max-width: 1023px) {
   #container1 {
     display: flex;
@@ -195,6 +204,7 @@ body {
     width: 100%;
   }
 }
+/* for desktops and laptops */
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
   #container1 {
     display: flex;
@@ -253,6 +263,7 @@ body {
     flex-shrink: 0;
   }
   #container4 div {
-    width: 100%;
+    width: 50%;
+    max-width: 500px;
   }
 }
