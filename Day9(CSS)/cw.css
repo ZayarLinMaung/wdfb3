@@ -1,0 +1,36 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 20px;
+}
+body {
+  font-family: "Poppins";
+}
+/* for a card */
+.card {
+  border: 2px solid gray;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid rgb(83, 83, 241);
+  margin: 10px;
+}
+.card i {
+  font-size: 60px;
+  display: block;
+  text-align: center;
+}
+.card h1 {
+  text-align: center;
+  font-size: 20px;
+}
+.card p {
+  text-align: center;
+}
+.card button {
+  text-align: center;
+  background-color: rgb(83, 83, 241);
+  color: white;
+  border-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
