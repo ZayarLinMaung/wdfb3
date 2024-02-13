@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 300px 600px 300px;
+  gap: 10px;
+}
+div {
+  background-color: cyan;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header,
+.footer {
+  grid-column: 1/3;
+}

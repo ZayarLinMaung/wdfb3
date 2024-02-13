@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(10, 500px);
+  gap: 10px 40px;
+}
+div {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.one {
+  background-color: grey;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.three {
+  background-color: grey;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.four {
+  background-color: teal;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.five {
+  background-color: grey;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
