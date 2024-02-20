@@ -1,0 +1,26 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+.one {
+  position: absolute;
+  z-index: 0;
+  background-color: blue;
+}
+.two {
+  position: absolute;
+  z-index: 0;
+}
+section {
+  position: relative;
+  border: 1px solid black;
+  height: 300px;
+}
+.box {
+  background-color: cadetblue;
+  position: absolute;
+  right: 0;
+  margin: 0;
+}
