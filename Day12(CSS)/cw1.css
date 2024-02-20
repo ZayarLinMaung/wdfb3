@@ -1,0 +1,28 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+button {
+  font-size: 80px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+button div {
+  font-size: 20px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  border-radius: 40px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
