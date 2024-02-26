@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px 300px 300px 200px;
+  grid-template-areas:
+    "div1 div1 div1"
+    "div2 div3 div3"
+    "div2 div4 div5"
+    "div6 div6 div6";
+  gap: 10px;
+}
+
+.grid div {
+  background-color: grey;
+  display: grid;
+  place-content: center;
+}
+
+.div1 {
+  grid-area: div1;
+}
+.div2 {
+  grid-area: div2;
+}
+.div3 {
+  grid-area: div3;
+}
+.div4 {
+  grid-area: div4;
+}
+.div5 {
+  grid-area: div5;
+}
+.div6 {
+  grid-area: div6;
+}
