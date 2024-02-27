@@ -24,7 +24,7 @@ body {
   left: -20px;
   transform: scale(0);
   transition-property: transform;
-  transition-duration: 1s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 .div2 {
@@ -38,8 +38,8 @@ body {
   right: -20px;
   transform: scale(0);
   transition-property: transform;
-  transition-duration: 1s;
-  transition-timing-function: ease-out;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
 }
 .parent:hover .div1,
 .parent:hover .div2 {
