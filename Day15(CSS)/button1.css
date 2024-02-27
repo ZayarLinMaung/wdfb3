@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.button {
+  position: relative;
+}
+.button button {
+  color: #e55743;
+  background-color: white;
+  border: 1px solid #e55743;
+  cursor: pointer;
+  padding: 10px;
+}
+.horizontal {
+  background-color: #e55743;
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.vertical {
+  background-color: #e55743;
+  width: 1px;
+  height: 48px;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.anotherhorizontal {
+  background-color: #e55743;
+  width: 110px;
+  height: 1px;
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.horizontal::before {
+  content: "";
+  background-color: #e55743;
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  top: 47px;
+  left: 0px;
+  transform: scaleX(1);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.vertical::before {
+  content: "";
+  background-color: #e55743;
+  width: 1px;
+  height: 48px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  transform: scaleY(1);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.anotherhorizontal::before {
+  content: "";
+  background-color: #e55743;
+  width: 110px;
+  height: 1px;
+  position: absolute;
+  top: 36.5px;
+  left: 0px;
+  transform: scaleX(1);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.button::before,
+.button::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #e55743;
+  position: absolute;
+  top: 0;
+  transform: scaleY(1);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.button::before {
+  left: -5px;
+}
+.button::after {
+  right: -5px;
+}
+.button:hover::before,
+.button:hover::after {
+  transform: scaleY(0);
+}
+.button:hover .horizontal {
+  transform: scaleX(0);
+}
+.button:hover .vertical {
+  transform: scaleY(0);
+}
+.button:hover .anotherhorizontal {
+  transform: scaleX(0);
+}
