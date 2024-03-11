@@ -1,0 +1,185 @@
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  display: grid;
+  font-family: rubik;
+  color: white;
+  grid-template-areas: "main card1 card2 card3" "main card4 card5 card6";
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(2, 300px);
+  gap: 20px;
+}
+.main,
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.main:hover .body,
+.card1:hover .body,
+.card2:hover .body,
+.card3:hover .body,
+.card4:hover .body,
+.card5:hover .body,
+.card6:hover .body {
+  filter: brightness(1.2);
+}
+.card1 .head,
+.card2 .head,
+.card3 .head,
+.card4 .head,
+.card5 .head,
+.card6 .head {
+  width: 250px;
+  height: 60px;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: right;
+  background-color: hsl(15, 100%, 70%);
+}
+.main .head {
+  width: 250px;
+  height: 370px;
+  margin: 0;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: right;
+  background-color: hsl(246, 80%, 60%);
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+.main .head img {
+  width: 80px;
+  border: 2px solid white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 50px;
+}
+.main .head h1 {
+  position: absolute;
+  top: 120px;
+}
+.main .head h2 {
+  position: absolute;
+  top: 160px;
+}
+.card2 .head {
+  background-color: hsl(195, 74%, 62%);
+}
+.card3 .head {
+  background-color: hsl(348, 100%, 68%);
+}
+.card4 .head {
+  background-color: hsl(145, 58%, 55%);
+}
+.card5 .head {
+  background-color: hsl(264, 64%, 52%);
+}
+.card6 .head {
+  background-color: hsl(43, 84%, 65%);
+}
+.card1 .head img,
+.card2 .head img,
+.card3 .head img,
+.card4 .head img,
+.card5 .head img,
+.card6 .head img {
+  width: 60px;
+  margin-right: 10px;
+}
+.card1 .body,
+.card2 .body,
+.card3 .body,
+.card4 .body,
+.card5 .body,
+.card6 .body {
+  background-color: hsl(235, 46%, 20%);
+  position: absolute;
+  top: 90px;
+  width: 250px;
+  border-radius: 10px;
+}
+.main .body {
+  background-color: hsl(235, 46%, 20%);
+  position: absolute;
+  top: 390px;
+  width: 220px;
+  height: 155px;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.main .body p {
+  color: hsl(235, 45%, 61%);
+}
+.card1 .body img,
+.card2 .body img,
+.card3 .body img,
+.card4 .body img,
+.card5 .body img,
+.card6 .body img {
+  width: 20px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+h1 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+h3 {
+  font-weight: normal;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  color: hsl(236, 100%, 87%);
+}
+
+.main {
+  grid-area: main;
+}
+.card1 {
+  grid-area: card1;
+}
+.card2 {
+  grid-area: card2;
+}
+.card3 {
+  grid-area: card3;
+}
+.card4 {
+  grid-area: card4;
+}
+.card5 {
+  grid-area: card5;
+}
+.card6 {
+  grid-area: card6;
+}
