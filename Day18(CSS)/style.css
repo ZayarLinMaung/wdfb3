@@ -9,7 +9,7 @@ body {
   color: white;
   grid-template-areas: "main card1 card2 card3" "main card4 card5 card6";
   grid-template-columns: repeat(3, 250px);
-  grid-template-rows: repeat(2, 300px);
+  grid-template-rows: repeat(2, 250px);
   gap: 20px;
 }
 .main,
@@ -51,7 +51,7 @@ body {
 }
 .main .head {
   width: 250px;
-  height: 370px;
+  height: 350px;
   margin: 0;
   border-radius: 10px;
   position: relative;
@@ -118,7 +118,7 @@ body {
 .main .body {
   background-color: hsl(235, 46%, 20%);
   position: absolute;
-  top: 390px;
+  top: 345px;
   width: 220px;
   height: 155px;
   border-radius: 10px;
