@@ -52,6 +52,18 @@ a {
 .ham {
   display: none;
 }
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+
 .body {
   margin: 0;
   box-sizing: border-box;
@@ -88,6 +100,8 @@ a {
   border: none;
   border-radius: 7px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: white;
 }
 .div1 .calltoaction .button2 {
   background-color: white;
@@ -95,25 +109,13 @@ a {
   border: none;
   border-radius: 7px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .left .calltoaction {
   margin-left: -250px;
   margin-top: 20px;
 }
-.div1 .calltoaction .button1 {
-  background-color: hsl(231, 69%, 60%);
-  padding: 10px;
-  border: none;
-  border-radius: 7px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
-}
-.div1 .calltoaction .button1 {
-  background-color: hsl(231, 69%, 60%);
-  padding: 10px;
-  border: none;
-  border-radius: 7px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
-}
+
 .div1 .right img {
   position: absolute;
   right: 0;
@@ -129,6 +131,217 @@ a {
   height: 350px;
   border-radius: 300px;
   z-index: -1;
+}
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+.div2 {
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div2 .top h1 {
+  position: absolute;
+  width: 1440px;
+  top: 600px;
+  text-align: center;
+}
+.div2 .top p {
+  position: absolute;
+  width: 500px;
+  top: 650px;
+  left: 450px;
+  text-align: center;
+  color: hsl(229, 8%, 60%);
+}
+.div2 .mid ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  position: absolute;
+  top: 750px;
+  left: 100px;
+  border: none;
+  width: 800px;
+  text-align: center;
+  border-bottom: 1px solid hsl(229, 8%, 60%);
+}
+.div2 .mid ul li {
+  width: 200px;
+}
+.div2 .mid ul .selected {
+  border-bottom: 3px solid orange;
+  padding-bottom: 40px;
+}
+.div2 .mid ul li a:hover {
+  color: orange;
+}
+.div2 .bottom .left {
+  position: absolute;
+  top: 900px;
+}
+.div2 .bottom .left .floatingbg {
+  position: absolute;
+  left: -700px;
+  top: 100px;
+  background-color: hsl(231, 69%, 60%);
+  width: 1170px;
+  height: 350px;
+  border-radius: 300px;
+  z-index: -1;
+}
+.div2 .left img {
+  position: absolute;
+  top: 40px;
+  left: -150px;
+}
+.div2 .right {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+}
+.div2 .bottom .right h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 0px;
+  position: absolute;
+  top: 850px;
+  left: 400px;
+}
+.div2 .bottom .right p {
+  font-size: 20px;
+  margin-left: 0px;
+  color: hsl(229, 8%, 60%);
+  position: absolute;
+  top: 930px;
+  left: 400px;
+  text-align: left;
+}
+.div2 .more {
+  background-color: hsl(231, 69%, 60%);
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  position: absolute;
+  top: 1050px;
+  left: 910px;
+  width: 100px;
+  color: white;
+}
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+.div3 {
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div3 .top h1 {
+  position: absolute;
+  width: 1440px;
+  top: 1400px;
+  text-align: center;
+}
+.div3 .top p {
+  position: absolute;
+  width: 500px;
+  top: 1450px;
+  left: 460px;
+  text-align: center;
+  color: hsl(229, 8%, 60%);
+}
+.div3 .bottom {
+  position: absolute;
+  top: 1500px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  left: 400px;
+}
+.div3 .bottom .div1,
+.div3 .bottom .div2,
+.div3 .bottom .div3 {
+  width: 200px;
+  height: 300px;
+  box-shadow: 0px 0px 5px grey;
+  position: relative;
+}
+.div3 .bottom .div1 .head,
+.div3 .bottom .div2 .head,
+.div3 .bottom .div3 .head {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  border-bottom: 5px dotted rgb(176, 176, 176);
+}
+.div3 .bottom .div1 .head h1,
+.div3 .bottom .div2 .head h1,
+.div3 .bottom .div3 .head h1 {
+  margin-top: 15px;
+  font-size: 22px;
+}
+.div3 .bottom .div1 .head p,
+.div3 .bottom .div2 .head p,
+.div3 .bottom .div3 .head p {
+  font-size: 15px;
+  color: hsl(229, 8%, 60%);
+}
+.div3 .bottom .div1 .body,
+.div3 .bottom .div2 .body,
+.div3 .bottom .div3 .body {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  height: 100px;
+  width: 200px;
+}
+.div3 .bottom .div1 .body button,
+.div3 .bottom .div2 .body button,
+.div3 .bottom .div3 .body button {
+  padding: 10px;
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+.div3 .bottom .div2 {
+  top: 70px;
+}
+.div3 .bottom .div3 {
+  top: 140px;
 }
 @media (max-width: 1200px) {
   .div1 .left {
@@ -152,6 +365,211 @@ a {
     z-index: -1;
   }
 }
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+.div2 {
+  position: relative;
+  max-width: 1024px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div2 .top h1 {
+  position: absolute;
+  width: 1024px;
+  top: 600px;
+  text-align: center;
+  left: 0px;
+}
+.div2 .top p {
+  position: absolute;
+  width: 500px;
+  top: 650px;
+  left: 280px;
+  text-align: center;
+  color: hsl(229, 8%, 60%);
+}
+.div2 .mid ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  position: absolute;
+  top: 750px;
+  left: 150px;
+  border: none;
+  width: 730px;
+  text-align: center;
+  border-bottom: 1px solid hsl(229, 8%, 60%);
+}
+.div2 .mid ul li {
+  width: 200px;
+}
+.div2 .bottom .left {
+  position: absolute;
+  top: 900px;
+}
+.div2 .left .floatingbg {
+  position: absolute;
+  left: -280px;
+  top: 150px;
+  background-color: hsl(231, 69%, 60%);
+  width: 740px;
+  height: 350px;
+  border-radius: 300px;
+  z-index: -1;
+}
+.div2 .left img {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.div2 .right {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+}
+.div2 .bottom .right h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 0px;
+  position: absolute;
+  top: 850px;
+  left: 300px;
+}
+.div2 .bottom .right p {
+  font-size: 20px;
+  margin-left: 0px;
+  color: hsl(229, 8%, 60%);
+  position: absolute;
+  top: 930px;
+  left: 630px;
+  text-align: left;
+}
+.div2 .more {
+  background-color: hsl(231, 69%, 60%);
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  position: absolute;
+  top: 1050px;
+  left: 630px;
+  width: 100px;
+  color: white;
+}
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+.div3 {
+  position: relative;
+  max-width: 1024px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div3 .top h1 {
+  position: absolute;
+  width: 1024px;
+  top: 1400px;
+  text-align: center;
+}
+.div3 .top p {
+  position: absolute;
+  width: 500px;
+  top: 1450px;
+  left: 260px;
+  text-align: center;
+  color: hsl(229, 8%, 60%);
+}
+.div3 .bottom {
+  position: absolute;
+  top: 1500px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  left: 200px;
+}
+.div3 .bottom .div1,
+.div3 .bottom .div2,
+.div3 .bottom .div3 {
+  width: 200px;
+  height: 300px;
+  box-shadow: 0px 0px 5px grey;
+  position: relative;
+}
+.div3 .bottom .div1 .head,
+.div3 .bottom .div2 .head,
+.div3 .bottom .div3 .head {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  border-bottom: 5px dotted rgb(176, 176, 176);
+}
+.div3 .bottom .div1 .head h1,
+.div3 .bottom .div2 .head h1,
+.div3 .bottom .div3 .head h1 {
+  margin-top: 15px;
+  font-size: 22px;
+}
+.div3 .bottom .div1 .head p,
+.div3 .bottom .div2 .head p,
+.div3 .bottom .div3 .head p {
+  font-size: 15px;
+  color: hsl(229, 8%, 60%);
+}
+.div3 .bottom .div1 .body,
+.div3 .bottom .div2 .body,
+.div3 .bottom .div3 .body {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  height: 100px;
+  width: 200px;
+}
+.div3 .bottom .div1 .body button,
+.div3 .bottom .div2 .body button,
+.div3 .bottom .div3 .body button {
+  padding: 10px;
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+.div3 .bottom .div2 {
+  top: 70px;
+}
+.div3 .bottom .div3 {
+  top: 140px;
+}
 @media (max-width: 900px) {
   .nav {
     max-width: 900px;
@@ -166,7 +584,6 @@ a {
   .div1 {
     display: flex;
     flex-direction: column;
-    /* overflow-x: hidden; */
   }
   .div1 .right img {
     position: absolute;
@@ -186,15 +603,236 @@ a {
     flex-direction: column;
     position: absolute;
     top: 400px;
-    transform: translate(25%, 0);
+    transform: translate(30%, 0);
+    text-align: center;
+  }
+  .left .calltoaction {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  .div2 {
+    position: relative;
+    max-width: 1024px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div2 .top h1 {
+    position: absolute;
+    width: 1024px;
+    top: 650px;
+    text-align: center;
+    left: -100px;
+  }
+  .div2 .top p {
+    position: absolute;
+    width: 500px;
+    top: 700px;
+    left: 180px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+  }
+  .div2 .mid ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 0px;
+    position: absolute;
+    top: 800px;
+    left: 220px;
+    width: 400px;
+    text-align: center;
+    border: none;
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+  }
+  .div2 .mid ul li {
+    border-top: 1px solid hsl(229, 8%, 60%);
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+  }
+  .div2 .mid ul .selected {
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 250px;
+    text-align: center;
+    align-self: center;
+    border-top: none;
+  }
+  .div2 .mid ul li a:hover {
+    color: orange;
+  }
+  .div2 .bottom .left {
+    position: absolute;
+    top: 1050px;
+  }
+  .div2 .left .floatingbg {
+    position: absolute;
+    left: -550px;
+    top: 100px;
+    background-color: hsl(231, 69%, 60%);
+    width: 1000px;
+    height: 350px;
+    border-radius: 300px;
+    z-index: -1;
+  }
+  .div2 .right {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+  }
+  .div2 .bottom .right h1 {
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 1450px;
+    left: -100px;
+  }
+  .div2 .bottom .right p {
+    font-size: 20px;
+    margin-left: 0px;
+    color: hsl(229, 8%, 60%);
+    position: absolute;
+    top: 1550px;
+    left: 160px;
+    text-align: center;
+  }
+  .div2 .more {
+    background-color: hsl(231, 69%, 60%);
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    position: absolute;
+    top: 1050px;
+    left: 910px;
+    width: 100px;
+    color: white;
+  }
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  .div3 {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div3 .top h1 {
+    position: absolute;
+    width: 900px;
+    top: 1850px;
+    text-align: center;
+    left: -30px;
+  }
+  .div3 .top p {
+    position: absolute;
+    width: 500px;
+    top: 1900px;
+    left: 180px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+  }
+  .div3 .bottom {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    left: 320px;
+    top: 2000px;
+  }
+  .div3 .bottom .div1,
+  .div3 .bottom .div2,
+  .div3 .bottom .div3 {
+    width: 190px;
+    height: 250px;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    border-radius: 10px;
+  }
+  .div3 .bottom .div1 .head,
+  .div3 .bottom .div2 .head,
+  .div3 .bottom .div3 .head {
+    height: 190px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    border-bottom: 5px dotted rgb(176, 176, 176);
+  }
+  .div3 .bottom .div1 .head h1,
+  .div3 .bottom .div2 .head h1,
+  .div3 .bottom .div3 .head h1 {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+  .div3 .bottom .div1 .head p,
+  .div3 .bottom .div2 .head p,
+  .div3 .bottom .div3 .head p {
+    font-size: 15px;
+    color: hsl(229, 8%, 60%);
+  }
+  .div3 .bottom .div1 .body,
+  .div3 .bottom .div2 .body,
+  .div3 .bottom .div3 .body {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    height: 100px;
+    width: 200px;
+  }
+  .div3 .bottom .div1 .body button,
+  .div3 .bottom .div2 .body button,
+  .div3 .bottom .div3 .body button {
+    padding: 10px;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+    border-radius: 7px;
+  }
+  .div3 .bottom .div2 {
+    top: 70px;
+  }
+  .div3 .bottom .div3 {
+    top: 140px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .ham {
     display: flex;
-  }
-  .right a {
-    display: none;
   }
   .right a {
     display: none;
@@ -223,21 +861,456 @@ a {
     flex-direction: column;
     position: absolute;
     top: 400px;
-    left: -120px;
+    left: -100px;
   }
-  .div1 h1 {
+  .div1 .left h1 {
     font-size: 40px;
     font-weight: 600;
-    margin-left: 0px;
+    margin-right: 50px;
     text-align: center;
+    margin-bottom: 10px;
   }
   .div1 p {
     font-size: 20px;
-    margin-left: 80px;
+    margin-right: 50px;
     color: hsl(229, 8%, 60%);
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+  }
+  .left .calltoaction {
+    margin-right: 50px;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  .div2 {
+    position: relative;
+    max-width: 1024px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div2 .top h1 {
+    position: absolute;
+    width: 1024px;
+    top: 750px;
+    text-align: center;
+    left: -300px;
+  }
+  .div2 .top p {
+    position: absolute;
+    width: 330px;
+    top: 800px;
+    left: 60px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+  }
+  .div2 .mid ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 0px;
+    position: absolute;
+    top: 900px;
+    left: 40px;
+    width: 350px;
+    text-align: center;
+    border: none;
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+  }
+  .div2 .mid ul li {
+    border-top: 1px solid hsl(229, 8%, 60%);
+    width: 350px;
+    text-align: center;
+    padding: 30px;
+  }
+  .div2 .mid ul .selected {
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 230px;
+    text-align: center;
+    align-self: center;
+    border-top: none;
+  }
+  .div2 .mid ul li a:hover {
+    color: orange;
+  }
+  .div2 .bottom .left {
+    position: absolute;
+    top: 1050px;
+  }
+  .div2 .bottom .left img {
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+  .div2 .bottom .left .floatingbg {
+    position: absolute;
+    left: -650px;
+    top: 200px;
+    background-color: hsl(231, 69%, 60%);
+    width: 1000px;
+    height: 250px;
+    border-radius: 300px;
+    z-index: -1;
+  }
+  .div2 .bottom .right h1 {
+    position: absolute;
+    top: 1450px;
+    left: -285px;
+    font-size: 30px;
+  }
+  .div2 .bottom .right p {
+    position: absolute;
+    top: 1500px;
+    left: 60px;
+    font-size: 15px;
+  }
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  .div3 {
+    position: relative;
+    max-width: 450px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div3 .top h1 {
+    position: absolute;
+    width: 450px;
+    top: 1750px;
+    left: 0px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .div3 .top p {
+    position: absolute;
+    width: 330px;
+    top: 1800px;
+    left: 60px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+  }
+  .div3 .bottom {
+    position: absolute;
+    top: 1900px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    left: 130px;
+  }
+  .div3 .bottom .div1,
+  .div3 .bottom .div2,
+  .div3 .bottom .div3 {
+    width: 200px;
+    height: 250px;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+  }
+  .div3 .bottom .div1 .head,
+  .div3 .bottom .div2 .head,
+  .div3 .bottom .div3 .head {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+
+    border-bottom: 5px dotted rgb(176, 176, 176);
+  }
+  .div3 .bottom .div1 .head h1,
+  .div3 .bottom .div2 .head h1,
+  .div3 .bottom .div3 .head h1 {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+  .div3 .bottom .div1 .head p,
+  .div3 .bottom .div2 .head p,
+  .div3 .bottom .div3 .head p {
+    font-size: 15px;
+    color: hsl(229, 8%, 60%);
+    width: 200px;
+    margin-left: 50px;
+  }
+  .div3 .bottom .div1 .body,
+  .div3 .bottom .div2 .body,
+  .div3 .bottom .div3 .body {
+    position: absolute;
+    top: 207px;
+    left: 20px;
+    height: 100px;
+    width: 200px;
+  }
+  .div3 .bottom .div1 .body button,
+  .div3 .bottom .div2 .body button,
+  .div3 .bottom .div3 .body button {
+    padding: 10px;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+    border-radius: 7px;
+  }
+  .div3 .bottom .div2 {
+    top: 70px;
+  }
+  .div3 .bottom .div3 {
+    top: 140px;
+    /* } */
+  }
+}
+
+@media (max-width: 400px) {
+  .div1 {
+    left: 50%; /* Center the left column */
+    transform: translateX(-50%); /* Adjust for centering */
+  }
+  .div1 .left h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 0px;
+    text-align: center;
+    width: 300px;
+  }
+  .div1 .left p {
+    font-size: 15px;
+    margin-left: 0px;
+    text-align: center;
+    width: 300px;
   }
   .left .calltoaction {
     margin-left: 0px;
     margin-top: 20px;
+    gap: 10px;
+  }
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////// */
+  .div2 {
+    position: relative;
+    max-width: 1024px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div2 .top h1 {
+    position: absolute;
+    width: 1024px;
+    top: 750px;
+    text-align: center;
+    left: -320px;
+  }
+  .div2 .top p {
+    position: absolute;
+    width: 330px;
+    top: 800px;
+    left: 30px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+  }
+  .div2 .mid ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 0px;
+    position: absolute;
+    top: 900px;
+    left: 30px;
+    width: 330px;
+    text-align: center;
+    border: none;
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+  }
+  .div2 .mid ul li {
+    border-top: 1px solid hsl(229, 8%, 60%);
+    width: 330px;
+    text-align: center;
+    padding: 30px;
+  }
+  .div2 .mid ul .selected {
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 230px;
+    text-align: center;
+    align-self: center;
+    border-top: none;
+  }
+  .div2 .mid ul li a:hover {
+    color: orange;
+  }
+  .div2 .bottom .left {
+    position: absolute;
+    top: 1050px;
+  }
+  .div2 .bottom .left img {
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    left: -15px;
+  }
+  .div2 .bottom .left .floatingbg {
+    position: absolute;
+    left: -750px;
+    top: 190px;
+    background-color: hsl(231, 69%, 60%);
+    width: 1000px;
+    height: 200px;
+    border-radius: 300px;
+    z-index: -1;
+  }
+  .div2 .bottom .right h1 {
+    position: absolute;
+    top: 1450px;
+    left: -315px;
+    font-size: 30px;
+  }
+  .div2 .bottom .right p {
+    position: absolute;
+    width: 380px;
+    top: 1500px;
+    left: 0px;
+    font-size: 18px;
+  }
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  /* =============================================== */
+  .div3 {
+    position: relative;
+    max-width: 375px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div3 .top h1 {
+    position: absolute;
+    width: 375px;
+    top: 1750px;
+    left: 0px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .div3 .top p {
+    position: absolute;
+    width: 330px;
+    top: 1800px;
+    left: 30px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+  }
+  .div3 .bottom {
+    position: absolute;
+    top: 1900px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    left: 100px;
+  }
+  .div3 .bottom .div1,
+  .div3 .bottom .div2,
+  .div3 .bottom .div3 {
+    width: 200px;
+    height: 250px;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+  }
+  .div3 .bottom .div1 .head,
+  .div3 .bottom .div2 .head,
+  .div3 .bottom .div3 .head {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+
+    border-bottom: 5px dotted rgb(176, 176, 176);
+  }
+  .div3 .bottom .div1 .head h1,
+  .div3 .bottom .div2 .head h1,
+  .div3 .bottom .div3 .head h1 {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+  .div3 .bottom .div1 .head p,
+  .div3 .bottom .div2 .head p,
+  .div3 .bottom .div3 .head p {
+    font-size: 15px;
+    color: hsl(229, 8%, 60%);
+    width: 200px;
+    margin-left: 50px;
+  }
+  .div3 .bottom .div1 .body,
+  .div3 .bottom .div2 .body,
+  .div3 .bottom .div3 .body {
+    position: absolute;
+    top: 207px;
+    left: 20px;
+    height: 100px;
+    width: 200px;
+  }
+  .div3 .bottom .div1 .body button,
+  .div3 .bottom .div2 .body button,
+  .div3 .bottom .div3 .body button {
+    padding: 10px;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+    border-radius: 7px;
+  }
+  .div3 .bottom .div2 {
+    top: 70px;
+  }
+  .div3 .bottom .div3 {
+    top: 140px;
+    /* } */
   }
 }
