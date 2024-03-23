@@ -1,4 +1,5 @@
 <html>
+<<<<<<< HEAD
   <h1>Hello JS</h1>
   <script>
     //browser
@@ -25,4 +26,135 @@
     // === =======>equality operator(strictly) =>datatype,value
     let band = 5.0;
   </script>
+=======
+  <head>
+    <style>
+      .modal {
+        width: 400px;
+        height: 400px;
+        box-shadow: 0px 0px 4px black;
+        text-align: center;
+        margin-bottom: 10px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        background: rgb(255, 255, 255);
+        transition: 1s ease;
+      }
+      .overlay {
+        position: fixed;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        opacity: 0;
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="modal">
+        This is model
+        <h1>Hello JS</h1>
+        <button class="b2">Close</button>
+      </div>
+    </div>
+    <button class="b1">Open</button>
+    <script>
+      //browser
+      console.log(document);
+      //html, head, body... <====object
+      // document.querySelector("h1").style.color = "red";
+      // document.querySelector("h1").style.textDecoration = "underline";
+      // document.querySelector("h1").style.fontStyle = "italic";
+      // document.querySelector("h1").style.border = "1px solid red";
+      // document.querySelector("h1").style.backgroundColor = "black";
+      // console.log(document.querySelector("h1").style);
+      //variables
+      let a = "zlm";
+      a = 1;
+      a = true;
+      a = [];
+      a = {};
+      a = Symbol();
+      a = undefined;
+      console.log(typeof a);
+
+      let arr = [10, 20, 40];
+      let count = 0;
+      while (count < arr.length) {
+        arr[count] = arr[count] + 20;
+        count = count + 1;
+      }
+      console.log(arr);
+
+      let arr2 = [20, 40, 60];
+      for (let index = 0; index < arr2.length; index++) {
+        arr2[index] /= 2;
+      }
+      console.log(arr2);
+      let obj = {
+        title: "Facebook",
+        body: "Lorem Ipsum",
+        reacts: {
+          happy: 0,
+          sad: 0,
+          like: 0,
+          love: 0,
+        },
+        canDelete(userID) {
+          return userID === 1;
+        },
+      };
+      for (let key in obj) {
+        console.log(key, " : ", obj[key]);
+      }
+      console.log(obj.canDelete(1));
+      (function () {
+        console.log("Hello World");
+      })();
+      console.log(window.document);
+      // document.querySelector("h1").style.color = "red";
+      // document.querySelector(".b1").onclick = function () {
+      //   document.querySelector("h1").style.color = "blue";
+      //   document.querySelector("h1").style.border = "2px solid black";
+      //   document.querySelector("h1").style.width = "150px";
+      //   document.querySelector("h1").style.textAlign = "center";
+      // };
+      // document.querySelector(".b2").onclick = function () {
+      //   document.querySelector("h1").style.color = "red";
+      //   document.querySelector("h1").style.border = "2px solid grey";
+      //   document.querySelector("h1").style.width = "150px";
+      //   document.querySelector("h1").style.textAlign = "center";
+      // };
+      // document.querySelector(".b1").onclick = function () {
+      //   document.querySelector(".model").style.display = "block";
+      // };
+      // document.querySelector(".b2").onclick = function () {
+      //   document.querySelector(".model").style.display = "none";
+      // };
+      document.querySelector(".b1").onclick = function () {
+        document.querySelector(".modal").style.opacity = "1";
+        document.querySelector(".modal").style.visibility = "visible";
+        document.querySelector(".overlay").style.opacity = "1";
+        document.querySelector(".overlay").style.visibility = "visible";
+      };
+      document.querySelector(".b2").onclick = function () {
+        document.querySelector(".modal").style.opacity = "0";
+        document.querySelector(".modal").style.visibility = "hidden";
+        document.querySelector(".overlay").style.opacity = "0";
+        document.querySelector(".overlay").style.visibility = "hidden";
+      };
+      document.querySelector(".overlay").onclick =
+        document.querySelector(".b2").onclick;
+    </script>
+  </body>
+>>>>>>> 8f138dba3c415a901aea70446b373396fd6c2cf2
 </html>
